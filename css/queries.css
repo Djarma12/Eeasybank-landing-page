@@ -169,10 +169,3 @@
     margin-top: -5.6rem;
   }
 }
-
-/* Below 368px */
-@media(max-width:23em){
-  html{
-    font-size: 47%;
-  }
-}
