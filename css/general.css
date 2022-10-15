@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 1.8rem;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(233, 8%, 62%);
+  overflow-x: hidden;
+}
+
+.mobile-btn-nav,
+.bg-img-mobile{
+  display: none;
+}
+
+/* Active nav */
+.active .section-hero::after{
+  content: "";
+  z-index: 2;
+  position: fixed;
+  inset: 0;
+  /* height: 100vh; */
+  background-image: linear-gradient(rgb(0 0 0 / 1), rgb(0 0 0 / 0));
+}
+
+.active .mobile-btn-nav{
+  content: url('../images/icon-close.svg');
+  width: 2.4rem;
+}
+
+.active .main-nav{
+  display: block;
+  position: absolute;
+  top: 10rem;
+  width: 90vw;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.8rem;
+}
+
+.active .main-nav .main-nav-list{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 4rem;
+  font-weight: 700;
+}
+
+.active .main-nav .main-nav-list a{
+  color: hsl(233, 26%, 24%);
+}
+
+.active .main-nav-list li a:link, 
+.active .main-nav-list li a:visited {
+  padding-bottom: 0rem;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 1.6rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--3-cols-footer{
+  grid-template-columns: auto 1fr auto;
+}
+
+.button{
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-radius: 100vmax;
+  padding: 1.4rem 3.4rem;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: hsl(0, 0%, 98%);
+  background-image:linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%))
+}
+
+h1,h2,h3,h4{
+  color: hsl(233, 26%, 24%);
+}
+
+h2{
+  font-weight: 400;
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.4px;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 2.4rem;
+  letter-spacing: 0.4px;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.4px;
+}
+
+p{
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  line-height: 1.38;
+}
+
+ul,li{
+  list-style: none;
+}
