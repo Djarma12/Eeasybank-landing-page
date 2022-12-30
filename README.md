@@ -1,9 +1,9 @@
-# Advanced-dom-Bankist
+# Easybank-landing-page
 
 This is the webpage where I learned how to position and style content on a page.
 
 You can view the webpage live here:
-[Advanced-dom-Bankist](https://dusan-easybank-landing-page.netlify.app/)
+[Easybank-landing-page](https://dusan-easybank-landing-page.netlify.app/)
 
 ---
 
@@ -27,7 +27,7 @@ I got the template from the frontendmentor platform where I downloaded their tem
 - CSS
 - JS
 
-[Back To The Top](#advanced-dom-bankist)
+[Back To The Top](#easybank-landing-page)
 
 ---
 
@@ -35,7 +35,7 @@ I got the template from the frontendmentor platform where I downloaded their tem
 
 To start the project, it is necessary to download the files from the github repository and run them on the live server.
 
-[Back To The Top](#advanced-dom-bankist)
+[Back To The Top](#easybank-landing-page)
 
 ---
 
@@ -44,7 +44,7 @@ To start the project, it is necessary to download the files from the github repo
 - You can view my profile on the platform where I downloaded the template here: [Frontend Mentor Profile](https://www.frontendmentor.io/profile/Djarma12)
 - You can see the specific work with this project here: [Frontend Mentor Project](https://www.frontendmentor.io/solutions/easybanklandingpage-with-htmlcss-and-js-response-3s2wsNp-Bs)
 
-[Back To The Top](#advanced-dom-bankist)
+[Back To The Top](#easybank-landing-page)
 
 ---
 
@@ -64,4 +64,4 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-[Back To The Top](#advanced-dom-bankist)
+[Back To The Top](#easybank-landing-page)
